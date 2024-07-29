@@ -1,12 +1,11 @@
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import './App.css'
-import Home from './Pages/Home'
+
 import LogSign from './Pages/SignUp'
 import Navbar from './Components/Navbar'
 import Login from './Pages/Login'
 import { AuthProvider } from './AuthContext'
-import Bloglist from './Components/Bloglist'
-import { useAuth } from './AuthContext'
+import Bloglist from './Pages/Bloglist'
 import Usersblogs from './Pages/Usersblogs'
 import BlogEdit from './Pages/BlogEdit'
 function App() {
